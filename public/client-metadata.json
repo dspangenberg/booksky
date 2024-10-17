@@ -1,0 +1,15 @@
+{
+  "client_id": "https://booksky.twiceware.cloud/client-metadata.json",
+  "client_name": "BookSky",
+  "client_uri": "https://booksky.twiceware.cloud",
+  "logo_uri": "https://booksky.twiceware.cloud/tw.png",
+  "tos_uri": "https://my-app.com/tos",
+  "policy_uri": "https://my-app.com/policy",
+  "redirect_uris": ["https://my-app.com/callback"],
+  "scope": "atproto",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "application_type": "web",
+  "dpop_bound_access_tokens": true
+}
