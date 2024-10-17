@@ -22,8 +22,7 @@ export default defineConfig({
     vueDevTools(),
     VitePWA({ registerType: 'autoUpdate' }),
     VueI18nPlugin({
-      include: fileURLToPath(new URL('./src/locales/**', import.meta.url)),
-      jitCompilation: true
+      include: fileURLToPath(new URL('./src/locales/**', import.meta.url))
     }),
     Components({
       dirs: ['src/components'],

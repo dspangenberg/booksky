@@ -10,6 +10,6 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "types": ["vue", "vue-router", "vite/client", "personizely-ui"],
+    "types": ["vue", "vue-router", "vite/client"],
   }
 }
